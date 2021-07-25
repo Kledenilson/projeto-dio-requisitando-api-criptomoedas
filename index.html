@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO - API Criptomoedas simples - </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container">
+   
+        <h1> Desafio DIO - Api Criptomoedas</h1>  <div class="btn btn-info" id='reload'>Reload data</div>
+        <hr>        
+            <h2>Top 10 Global</h2>
+                
+                <div class="text-center">                 
+                    <div class="spinner-border text-center" role="status" id="loading1"></div>
+                    <br>
+                </div>
+                    <div id="top10"></div>
+        
+       
+            <h2>Top 10 Price Today</h2>
+                <div class="text-center">
+                    <br>
+                    <div class="spinner-border text-center" role="status" id="loading2"></div>
+                </div>         
+                    </div><div id="price"></div>
+        
+    </main>
+</body>
+<script type="text/javascript" src="api.js"></script>
+</html>
